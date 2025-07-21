@@ -41,12 +41,13 @@ const Footer: React.FC = () => {
   };
 
   const socialLinks = [
-    { icon: <Facebook className="w-5 h-5" />, href: '#', name: 'Facebook' },
-    { icon: <Twitter className="w-5 h-5" />, href: '#', name: 'Twitter' },
-    { icon: <Instagram className="w-5 h-5" />, href: '#', name: 'Instagram' },
-    { icon: <Linkedin className="w-5 h-5" />, href: '#', name: 'LinkedIn' },
-    { icon: <Youtube className="w-5 h-5" />, href: '#', name: 'YouTube' }
-  ];
+  { icon: <Facebook className="w-5 h-5" />, href: 'https://www.facebook.com/profile.php?id=61578674128296', name: 'Facebook' },
+  { icon: <Twitter className="w-5 h-5" />, href: 'https://x.com/editMatchh', name: 'Twitter' },
+  { icon: <Instagram className="w-5 h-5" />, href: 'https://www.instagram.com/editm_atch/', name: 'Instagram' },
+  { icon: <Linkedin className="w-5 h-5" />, href: 'https://www.linkedin.com/in/edit-match-3b1111376/', name: 'LinkedIn' },
+  { icon: <Youtube className="w-5 h-5" />, href: 'https://www.youtube.com/@EditMatchh', name: 'YouTube' }
+];
+
 
   return (
     <footer className="bg-gray-900 border-t border-gray-800">
@@ -75,15 +76,15 @@ const Footer: React.FC = () => {
               <div className="space-y-3 text-sm text-gray-400">
                 <div className="flex items-center space-x-3">
                   <Mail className="w-4 h-4" />
-                  <span>contato@editmatchplus.com</span>
+                  <span>editmatch@outlook.pt</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="w-4 h-4" />
-                  <span>+55 (11) 9999-9999</span>
+                  <span>+351 9999-9999</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <MapPin className="w-4 h-4" />
-                  <span>São Paulo, Brasil</span>
+                  <span>Portugal</span>
                 </div>
               </div>
             </motion.div>
