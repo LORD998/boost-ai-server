@@ -22,7 +22,7 @@ const BoostIA: React.FC = () => {
       });
 
       const data = await response.json();
-      setRespostaIA(data.reply);
+      setRespostaIA(data.response || data.reply || 'Erro na resposta.');
     } catch (error) {
       console.error('Erro ao chamar IA:', error);
       setRespostaIA('Erro ao conectar com a IA.');
